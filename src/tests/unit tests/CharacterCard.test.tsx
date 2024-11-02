@@ -7,6 +7,7 @@ describe("CharacterCard Component", () => {
     name: "Luke Skywalker",
     gender: "male",
     homeworld: "Tatooine",
+    height: "177",
   };
 
   test("renders character information correctly", () => {

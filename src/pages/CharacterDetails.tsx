@@ -39,6 +39,7 @@ const CharacterDetails = () => {
           eyeColor: data.eye_color,
           films: filmTitles,
           starships: starshipNames,
+          height: data.height,
         });
       } catch (error) {
         console.error("Error fetching character data:", error);

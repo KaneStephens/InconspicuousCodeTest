@@ -21,6 +21,7 @@ const CharacterCard: React.FC<CharacterCardProps> = ({
       </Heading>
       <Text>Gender: {character.gender}</Text>
       <Text>Home Planet: {character.homeworld}</Text>
+      {onRemove && <Text>Height: {character.height}cm</Text>}
       <div
         style={{
           display: "flex",

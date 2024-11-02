@@ -48,6 +48,7 @@ describe("API Functions", () => {
             name: "Luke Skywalker",
             gender: "male",
             homeworld: "https://swapi.dev/api/planets/1/",
+            height: "177",
             url: "https://swapi.dev/api/people/1/",
           },
         ],

@@ -60,6 +60,7 @@ describe("CharacterDetails Component", () => {
       name: "Luke Skywalker",
       gender: "male",
       homeworld: "Tatooine",
+      height: "177",
     };
 
     render(
